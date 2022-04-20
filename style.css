@@ -1,0 +1,208 @@
+*{
+    max-width: 697px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Ropa Sans';
+}
+
+.cabecalho{
+    color:#777777;
+    font-weight: 400;
+    box-shadow: 0 5px 5px 3px #eaeaea;
+    height: 49px;
+}
+
+.div1{
+    display: flex;
+    padding-left: 44px;
+    padding-right: 19px;
+    column-gap: 503px;
+}
+
+.logo{
+    padding-top: 8px;
+    font-size: 30px;
+    display: flex;
+}
+
+.frase-logo{
+    font-size: 10px;
+    padding-left: 2px;
+    padding-top: 6px;
+    width: 38px;
+}
+
+.menu-img{
+    height: 12px;
+    width: 18px;
+    padding-top: 18px;
+}
+
+.conteudo-principal{
+    padding-top: 20px;
+    max-width: 697px;
+    width: 100%;
+}
+
+.principal{
+    width: 608px;
+    padding-left: 45px;
+}
+
+.grid{
+    padding-top: 37px;
+    max-width: 697px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.grid-1{
+    background-color: #eaeaea;
+    height: 242px;
+    max-height: 100%;
+    max-width: 256px;
+}
+
+.grid-2{
+    background-color: #eaeaea;
+    height: 242px;
+    max-height: 100%;
+    max-width: 256px;
+}
+
+.infos-venda{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.valor-casa{
+    font-size: 25px;
+    color: #888888;
+}
+
+.status-casa1{
+    background-image: url("./img/verde.png");
+    color: #ffffff;
+    font-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.status-casa{
+    background-image: url("./img/laranja.png");
+    color: #ffffff;
+    font-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.texto-grid{
+    max-width: 231px;
+    font-size: 10px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+
+.sidebar{
+    width: 608px;
+    padding-left: 45px;
+    padding-top: 45px;
+}
+
+.titulo-sidebar{
+    font-size: 25px;
+    text-align: center;
+    color:#777777
+}
+
+.sidebar-1{
+    margin-top: 13px;
+    width: 608px;
+    height: 80px;
+    background-image: url("./img/side-1.png");
+    background-repeat: no-repeat;
+    opacity: 70%;
+}
+
+.sidebar-2{
+    margin-top: 13px;
+    width: 608px;
+    height: 80px;
+    background-image: url("./img/side-2.png");
+    background-repeat: no-repeat;
+    opacity: 70%;
+}
+
+.sidebar-3{
+    margin-top: 13px;
+    width: 608px;
+    height: 80px;
+    background-image: url("./img/side-3.png");
+    background-repeat: no-repeat;
+    opacity: 70%;
+}
+
+.texto-sidebar{
+    padding-top: 31px;
+    text-align: center;
+    font-size: 25px;
+    color:#ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.footer{
+    margin-top: 57px;
+    max-width: 697px;
+    width: 100%;
+    height: 243px;
+    background-color: #333333;
+}
+
+.rodape-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-left: 45px;
+    padding-top: 40px;
+    grid-column-gap: 177px;
+}
+
+.imagem-grid{
+    max-height: 243px;
+    height: 100%;
+}
+
+.mapa{
+    width: 252px;
+    height: 163px;
+    border-radius: 19px;
+}
+
+.texto-rodape-grid{
+    font-size: 12px;
+    color:#ffffff;
+    line-height: 28px;
+    max-height: 243px;
+    height: 100%;
+}
+
+.img-sociais{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+
+@media (max-width: 320px){
+    html{
+        font-size:50%;
+    }
+}
